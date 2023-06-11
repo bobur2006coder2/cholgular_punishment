@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 52px;
+    margin-top: 50px;
+}
+body{
+
+    background-color: pink;
+}
+
+.box{
+    margin-top: 50px;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.one{
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    border: none;
+    background-repeat: no-repeat;
+    background-image:url(https://media.istockphoto.com/id/183333383/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B1%D0%B0%D1%80%D0%B0%D0%B1%D0%B0%D0%BD.jpg?s=612x612&w=is&k=20&c=gYgQNd6vLkgdHkgAybGxc0pAAGlQpUSzfRvBdhjt0dY=) ;
+}
+
+.two{
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    border: none;
+    background-repeat: no-repeat;
+    background-image: url(https://media.istockphoto.com/id/137129980/photo/brass-trumpet-on-white-background.jpg?s=612x612&w=0&k=20&c=nUMEf8IfRzZVqVhCCG9WOFIsk7k70Kj_VE-qTZLspFo=);
+}
+
+.three{
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.pixabay.com/photo/2010/12/13/10/01/guitar-2119_640.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    border: none;
+}
+
+.four{
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVkImPJU_CO7Hv5bSLqpFQZ_jhhnmmhM91ddqICeTa&s);
+}
